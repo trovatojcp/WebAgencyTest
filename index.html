@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Web Agency</title>
+    <meta name="description" content="La WebAgency est une agence de développement et d'intégration web">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 2560px)" href="media-queries/2560px.css" /> <!-- Pour ceux qui ont une résolution >= à 2560px -->
+    <link rel="stylesheet" media="screen and (min-width: 1737px) and (max-width: 2559px)" href="media-queries/1737-2559px.css" />
+    <!-- Pour ceux qui ont une résolution entre 1737 et 2559px -->
+    <link rel="stylesheet" media="screen and (min-width: 1500px) and (max-width: 1736px)" href="media-queries/1500-1736px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 1500px et 1736px -->
+    <link rel="stylesheet" media="screen and (min-width: 1440px) and (max-width: 1500px)" href="media-queries/1440px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 1440px et 1500px -->
+    <link rel="stylesheet" media="screen and (min-width: 1131px) and (max-width: 1439px)" href="media-queries/1131-1439px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 1131px et 1439px -->
+    <link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1130px)" href="media-queries/1024px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 1024px et 1130px -->
+    <link rel="stylesheet" media="screen and (min-width: 860px) and (max-width: 1023px)" href="media-queries/860-1023.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 860px et 1023px -->
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 859px)" href="media-queries/768px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 768px et 869px -->
+    <link rel="stylesheet" media="screen and (min-width: 425px) and (max-width: 767px)" href="media-queries/425px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 425px et 767px -->
+    <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 424px)" href="media-queries/375px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 375px 424px -->
+    <link rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 374px)" href="media-queries/320px.css" />
+    <!-- Pour ceux qui ont une résolution
+    entre 320px et 374px -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <!-- Inclure le logo et rendre le menu mobile sur toute la page -->
+
+        <a href="#accueil"><img src="images/logo.png" alt="logo web agency"></a>
+
+
+        <nav>
+            <ul id="menu">
+                <li><a href="#accueil">Accueil</a>
+                    <div class="trait_menu"></div>
+                </li>
+                <li><a href="#services">Services</a>
+                    <div class="trait_menu"></div>
+                </li>
+                <li><a href="#projets">Portfolio</a>
+                    <div class="trait_menu"></div>
+                </li>
+                <li><a href="#contact">Contact</a>
+                    <div class="trait_menu"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <div class="image_accueil">
+            <img src="images/slider/bg1.jpg" alt="petite fille avec de la peinture sur les mains">
+            <div id="trait-slider"></div>
+        </div>
+        <div class="contenu_accueil">
+            <div class="chevrons">
+                <div>
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                    <div class="circle-left"></div>
+                </div>
+                <div>
+                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                    <div class="circle-right"></div>
+                </div>
+                <div class="texte_accueil">
+                    <h1><strong>WEBAGENCY</strong>: L'AGENCE DE TOUS<br /> VOS PROJETS!</h1>
+                    <p>Vous avez un projet web? La webAgency vous aide à le réaliser!</p>
+                    <input class="bouton_infos" type="button" value="Plus d'infos">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+
+        <div class="titre_services">
+            <h2>NOS SERVICES</h2> <!-- Centrer titre et paragraphe avec logo de séparation entre les deux -->
+            <!-- logo de séparation -->
+            <div class="block_line">
+                <div class="trait">
+                    <i class="fas fa-circle" aria-hidden="true">
+                    </i>
+                </div>
+            </div>
+            <!---->
+            <p>Afin de vous satisfaire, nous vous proposons un accompagnement personnalisé et adapté à vos besoin pour tous vos projets</p>
+        </div>
+
+
+
+        <div class="liste_services">
+            <img src="images/main-feature.png" alt="écran d'ordinateur" class="ordi">
+
+            <div class="logo_services">
+                <div class="circle"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+                <i class="fas fa-circle" aria-hidden="true"></i>
+                <div class="circle"><i class="fas fa-cubes" aria-hidden="true"></i></div>
+                <i class="fas fa-circle" aria-hidden="true"></i>
+                <div class="circle"><i class="fas fa-chart-pie" aria-hidden="true"></i></div>
+                <i class="fas fa-circle" aria-hidden="true"></i>
+            </div>
+            <ul>
+                <li>
+                    <h3>UX design</h3>
+                    <p>L'UX-Design (User eXperience Design) est une discipline dont l'objectif est de concevoir un produit au service des utilisateurs.</p>
+                </li>
+
+                <li>
+                    <h3>UI design</h3>
+                    <p>L' UI-design (User Interface Design) est la conception d'interfaces utilisateur pour des machines et des logiciels, tels que des ordinateurs, des appareils ...</p>
+                </li>
+
+                <li>
+                    <h3>SEO</h3>
+                    <p>L'optimisation pour les moteurs de recherche, référencement naturel ou SEO (pour search engine optimization), est un ensemble de techniques visant à optimiser la visibilité d'une page web dans les résultats de recherche</p>
+                </li>
+            </ul>
+        </div>
+
+
+    </section>
+    <section id="projets">
+        <div class="titre_projets">
+            <h2>NOS PROJETS</h2> <!-- Centrer titre et paragraphe avec logo de séparation entre les deux -->
+            <!-- logo de séparation -->
+            <div class="block_line">
+                <div class="trait">
+                    <i class="fas fa-circle" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!---->
+            <p>Certains projets ont déjà pu être réalisés grâce à des clients qui nous font toujours confiance !</p>
+        </div>
+        <div class="boite_boutons">
+            <ul id="boutons_projets">
+                <li class="bouton_projet1">
+                    <p>All works</p>
+                    <i class="fas fa-caret-down" aria-hidden="true"></i>
+                </li>
+                <li class="bouton_projet">
+                    <p>Creative</p>
+                    <i class="fas fa-caret-down" aria-hidden="true"></i>
+                </li>
+                <li class="bouton_projet">
+                    <p>Corporate</p>
+                    <i class="fas fa-caret-down" aria-hidden="true"></i>
+                </li>
+                <li class="bouton_projet4">
+                    <p>Portfolio</p>
+                    <i class="fas fa-caret-down" aria-hidden="true"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="pictures">
+            <figure>
+                <img src="images/portfolio/01.jpg" alt="image projet 1">
+                <figcaption>
+                    <h3>Projet 1</h3>
+                    <p>Notre premier projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/02.jpg" alt="image projet 2">
+                <figcaption>
+                    <h3>Projet 2</h3>
+                    <p>Notre deuxième projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/03.jpg" alt="image projet 3">
+                <figcaption>
+                    <h3>Projet 3</h3>
+                    <p>Notre troisième projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/04.jpg" alt="image projet 4">
+                <figcaption>
+                    <h3>Projet 4</h3>
+                    <p>Notre quatrième projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/05.jpg" alt="image projet 5">
+                <figcaption>
+                    <h3>Projet 5</h3>
+                    <p>Notre cinquième projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/06.jpg" alt="image projet 6">
+                <figcaption>
+                    <h3>Projet 6</h3>
+                    <p>Notre sixième projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/07.jpg" alt="image projet 7">
+                <figcaption>
+                    <h3>Projet 7</h3>
+                    <p>Notre septième projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/portfolio/08.jpg" alt="image projet 8">
+                <figcaption>
+                    <h3>Projet 8</h3>
+                    <p>Notre huitième projet</p>
+                    <div><i class="far fa-eye" aria-hidden="true"></i></div>
+                </figcaption>
+            </figure>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.224015623987!2d2.348430849771763!3d48.87300591089545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1556628183163!5m2!1sfr!2sfr"></iframe>
+            <div class="formulaire">
+                <form action="/ma-page-de-traitement" method="post" id="formulaire">
+                    <h1>Contact info</h1>
+                    <address>
+                        <p><strong>WebAgency SAS</strong><br> 25 Rue d'Hauteville 75010 Paris <br>Tel: <a href="tel:+330102030405">01 02 03 04 05</a></p>
+                    </address>
+                    <div>
+                        <label for="name"></label>
+                        <input type="text" id="name" name="user_name" placeholder="Name">
+                    </div>
+                    <div>
+                        <label for="mail"></label>
+                        <input type="email" id="mail" name="user_mail" placeholder="E-mail" required>
+                    </div>
+                    <div>
+                        <label for="subject"></label>
+                        <input type="text" id="subject" name="user_subject" placeholder="Subject">
+                    </div>
+                    <div>
+                        <label for="msg"></label>
+                        <textarea id="msg" name="user_message" placeholder="Message..." rows="5" cols="33"></textarea>
+                        <input class="bouton_submit" type="button" value="Send message">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

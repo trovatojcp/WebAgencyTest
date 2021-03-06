@@ -1,0 +1,102 @@
+/* Pour ceux qui ont une résolution entre 1131px et 1439px */
+
+
+/* Partie Header */
+
+header nav {
+    right: 100px;
+}
+
+header img {
+    padding-left: 10%;
+}
+
+/* Partie Accueil */
+
+.circle-left {
+    bottom: 35px;
+    height: 50px;
+    width: 25px;
+    /* 2*height */
+    border-bottom-right-radius: 90px;
+    /* 4*height */
+    border-top-right-radius: 90px;
+    /* 4*height */
+}
+
+.circle-right {
+    bottom: 35px;
+    height: 50px;
+    width: 25px;
+    /* 2*height */
+    border-bottom-left-radius: 90px;
+    /* 4*height */
+    border-top-left-radius: 90px;
+    /* 4*height */
+}
+
+.fas.fa-chevron-right {
+    padding-left: 10px;
+}
+
+#accueil {
+    height: 500px;
+}
+
+
+
+.texte_accueil {
+    padding-left: 3%;
+    top: 50%;
+}
+
+.texte_accueil h1 {
+    font-size: 1.33em;
+}
+
+.texte_accueil p {
+    font-size: 0.90em;
+}
+
+
+
+
+
+
+/* Partie Services */
+
+.ordi {
+    height: 250px;
+    top: 100px;
+    left: 2%;
+    margin-right: 20%
+}
+
+.liste_services ul,
+.logo_services {
+    left: 0%;
+}
+
+.liste_services p {
+    width: 400px;
+
+}
+
+.circle {
+    top: 50px;
+}
+
+
+.logo_services .fas.fa-circle {
+    bottom: 65px;
+}
+
+/* Partie Projets */
+
+.pictures {
+    max-width: 90%;
+    position: relative;
+    left: 6%;
+}
+
+/* Partie Contact */

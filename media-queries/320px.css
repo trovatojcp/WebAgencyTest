@@ -1,0 +1,190 @@
+/* Pour ceux qui ont une résolution >= à 320px */
+
+
+/* Partie Header */
+
+header {
+    height: 110px;
+}
+
+header img {
+    height: 55px;
+    padding-left: 15%;
+}
+
+header nav {
+    top: 70px;
+    right: 25px;
+}
+
+li:hover .trait_menu {
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 5px;
+    width: 80px;
+    background-color: rgb(78, 177, 213);
+}
+
+header li {
+    width: 40px;
+}
+
+/* Partie Accueil */
+
+.circle-left {
+    display: none;
+}
+
+.circle-right {
+    display: none;
+}
+
+.fas.fa-chevron-right {
+    display: none;
+}
+
+
+.fas.fa-chevron-left {
+    display: none;
+}
+
+
+#accueil {
+    height: 500px;
+}
+
+.texte_accueil {
+    top: 110px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.texte_accueil h1 {
+    color: #000000;
+}
+
+.texte_accueil p {
+    color: #000000;
+}
+
+.bouton_infos {
+    height: 30px;
+    width: 120px;
+}
+
+
+/* flèche slider */
+
+
+#trait-slider {
+    display: none;
+}
+
+/* Partie Services */
+
+
+#services {
+    height: 1060px;
+}
+
+
+.titre_services {
+    width: 100%;
+    margin: 0;
+}
+
+.ordi {
+    height: 200px;
+    left: 0%;
+}
+
+.liste_services ul,
+.logo_services {
+    left: -335px;
+    top: 120px;
+}
+
+
+
+.liste_services p {
+    width: 200px;
+}
+
+
+
+.logo_services .fas.fa-circle {
+    bottom: 95px;
+}
+
+/* Partie Projets */
+
+.titre_projets {
+    width: 100%;
+    margin: 0;
+}
+
+#boutons_projets {
+    position: relative;
+    right: 15px;
+
+}
+
+figure img {
+    width: 300px;
+}
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    opacity: 0;
+    width: 300px;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-delay: 0.4s;
+}
+
+/* Partie Contact */
+
+.formulaire {
+    position: static;
+    width: 300px;
+    margin: 3%;
+}
+
+
+form h1 {
+    padding-left: 35px;
+}
+
+form p {
+    font-size: 0.9em;
+    padding-left: 35px;
+}
+
+#name,
+#mail,
+#subject {
+    height: 15px;
+}
+
+#msg {
+    height: 160px;
+}
+
+#name,
+#mail,
+#subject,
+#msg {
+    margin-bottom: 15px;
+    border-radius: 3px;
+    width: 210px;
+}
+
+.bouton_submit {
+    position: relative;
+    top: 5px;
+    right: 50px;
+}

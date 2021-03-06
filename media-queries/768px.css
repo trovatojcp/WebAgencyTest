@@ -1,0 +1,134 @@
+/* Pour ceux qui ont une résolution >= 768px */
+
+
+/* Partie Header */
+.logo img {
+    padding-left: 5%;
+    height: 55px;
+    width: 250px;
+}
+
+header nav {
+    right: 50px;
+}
+
+header img {
+    padding-left: 5%;
+}
+
+li:hover .trait_menu {
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    height: 5px;
+    width: 80px;
+    background-color: rgb(78, 177, 213);
+}
+
+header li {
+    width: 40px;
+}
+
+/* Partie Accueil */
+
+.circle-left {
+    bottom: 35px;
+    height: 50px;
+    width: 25px;
+    /* 2*height */
+    border-bottom-right-radius: 90px;
+    /* 4*height */
+    border-top-right-radius: 90px;
+    /* 4*height */
+}
+
+.circle-right {
+    bottom: 35px;
+    height: 50px;
+    width: 25px;
+    /* 2*height */
+    border-bottom-left-radius: 90px;
+    /* 4*height */
+    border-top-left-radius: 90px;
+    /* 4*height */
+}
+
+.fas.fa-chevron-right {
+    padding-left: 10px;
+}
+
+#accueil {
+    height: 250px;
+}
+
+.texte_accueil {
+    padding-left: 3%;
+    top: 40%;
+}
+
+.texte_accueil h1 {
+    font-size: 1.33em;
+}
+
+.texte_accueil p {
+    font-size: 0.66em;
+}
+
+.bouton_infos {
+    height: 30px;
+    width: 120px;
+}
+
+/* Partie Services */
+
+#services {
+    height: 1100px;
+}
+
+.ordi {
+    height: 350px;
+    position: relative;
+    left: 17%;
+}
+
+.liste_services ul,
+.logo_services {
+    left: -400px;
+    top: 300px;
+}
+
+
+
+.liste_services p {
+    width: 450px;
+}
+
+
+.circle {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.8em;
+    background-color: white;
+    color: rgb(78, 177, 213);
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+}
+
+.fas.fa-chart-line,
+.fas.fa-cubes,
+.fas.fa-chart-pie {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+
+.logo_services .fas.fa-circle {
+    font-size: 13px;
+    bottom: 60px;
+    left: 40px;
+}
+
+/* Partie Contact */

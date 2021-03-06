@@ -1,0 +1,310 @@
+/* Pour ceux qui ont une résolution >= à 2560px */
+
+
+/* Partie Header */
+
+
+.ancre {
+    display: block;
+    height: 100px;
+    /*same height as header*/
+    margin-top: -95px;
+    /*same height as header*/
+
+}
+
+
+header li {
+    width: 80px;
+}
+
+li:hover .trait_menu {
+    bottom: 65px;
+    right: 5px;
+    width: 110px;
+    background-color: rgb(78, 177, 213);
+}
+
+a {
+    font-size: 25px;
+}
+
+header img {
+    padding-left: 50%;
+}
+
+/* Partie Accueil */
+
+
+
+
+.bouton_infos {
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    border-radius: 6px;
+    box-shadow: 0px 10px 0px #4494bb;
+    background-color: rgb(92, 173, 211);
+}
+
+.bouton_projet i {
+    bottom: 10px;
+}
+
+.bouton_projet1 i {
+    bottom: 10px;
+}
+
+.bouton_projet4 i {
+    bottom: 10px;
+}
+
+/* flèche slider */
+
+.chevrons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15%;
+    font-size: 2em;
+    color: floralwhite;
+
+}
+
+
+#trait-slider {
+    height: 5px;
+    width: 200px;
+}
+
+/* Partie Services */
+
+#services {
+    margin-top: 500px;
+}
+
+.titre_services h2 {
+    font-size: 90px;
+}
+
+.block_line1 {
+    display: flex;
+    justify-content: center;
+}
+
+.trait1 {
+    width: 300px;
+    height: 2px;
+    margin-bottom: 15px;
+}
+
+.trait1 i {
+    width: 44px;
+    font-size: 30px;
+    border: 12px;
+}
+
+.titre_services p {
+    font-size: 25px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.ordi {
+    height: 600px;
+    margin-right: 15%;
+}
+
+
+.logo_services .circle {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    border: 2px solid rgb(215, 215, 215);
+    top: 20px;
+}
+
+.fas.fa-chart-line,
+.fas.fa-cubes,
+.fas.fa-chart-pie {
+    top: 22px;
+    right: 20px;
+}
+
+.logo_services .fas.fa-circle {
+    font-size: 26px;
+    border: 12px solid rgb(255, 255, 255);
+    bottom: 90px;
+    left: 80px;
+}
+
+.liste_services ul,
+.logo_services {
+    padding-top: 60px;
+}
+
+
+.liste_services h3 {
+    font-size: 40px;
+}
+
+.liste_services p {
+    font-size: 25px;
+    width: 900px;
+}
+
+
+/* Partie Projets */
+
+
+.titre_projets h2 {
+    padding-top: 30px;
+    font-size: 90px;
+}
+
+.titre_projets p {
+    font-size: 25px;
+    color: #000000;
+}
+
+.trait2 {
+    width: 300px;
+    height: 2px;
+    margin-bottom: 15px;
+}
+
+.trait2 i {
+    width: 44px;
+    font-size: 30px;
+    border: 12px;
+}
+
+
+.bouton_projet,
+.bouton_projet1,
+.bouton_projet4 {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+}
+
+.bouton_projet1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.bouton_projet4 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+figure {
+    height: 466px;
+}
+
+figure img {
+    width: 550px;
+}
+
+figcaption {
+    position: relative;
+    bottom: 170px;
+    height: 140px;
+    width: 550px;
+}
+
+
+figure div {
+    height: 80px;
+    width: 80px;
+    border: 4px solid white;
+    border-radius: 50%;
+    bottom: 100px;
+    right: 20px;
+}
+
+figure:hover .oeil {
+    height: 80px;
+    width: 80px;
+    border: 4px solid white;
+    border-radius: 50%;
+    bottom: 100px;
+    right: 20px;
+}
+
+figure i {
+    top: 25px;
+    right: 20px;
+    font-size: 35px;
+}
+
+figcaption h3 {
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+
+figcaption p {
+    left: 30px;
+    font-size: 25px;
+}
+
+
+
+/* Partie Contact */
+
+iframe {
+    height: 1000px;
+    opacity: 0.8;
+}
+
+#map {
+    height: 1000px;
+}
+
+
+.formulaire {
+    border-radius: 10px;
+    height: 700px;
+    width: 500px;
+}
+
+form h1 {
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+form p {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#name,
+#mail,
+#subject {
+    height: 50px;
+}
+
+#msg {
+    height: 150px;
+}
+
+#name,
+#mail,
+#subject,
+#msg {
+    margin-bottom: 30px;
+    border-radius: 6px;
+    width: 450px;
+}
+
+.bouton_submit {
+    height: 45px;
+    width: 200px;
+    position: relative;
+    bottom: 25px;
+    right: 130px;
+    font-size: 1.2em;
+    
+}
+

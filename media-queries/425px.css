@@ -1,0 +1,144 @@
+/* Pour ceux qui ont une résolution >= à 425px */
+
+
+/* Partie Header */
+
+header {
+    height: 110px;
+}
+
+header img {
+    height: 55px;
+    width: 250px;
+    padding-left: 25%;
+}
+
+header nav {
+    top: 70px;
+    right: 70px;
+}
+
+li:hover .trait_menu {
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    height: 5px;
+    width: 80px;
+    background-color: rgb(78, 177, 213);
+}
+
+header li {
+    width: 40px;
+}
+
+/* Partie Accueil */
+
+.chevrons {
+    padding-top: 0%;
+    color: floralwhite;
+
+}
+
+.circle-left {
+    display: none;
+}
+
+.circle-right {
+    display: none;
+}
+
+.fas.fa-chevron-right {
+    display: none;
+}
+
+.fas.fa-chevron-left {
+    display: none;
+}
+
+
+#accueil {
+    height: 500px;
+}
+
+
+
+.texte_accueil {
+    top: 170px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.texte_accueil h1 {
+    color: #000000;
+}
+
+.texte_accueil p {
+    color: #000000;
+}
+
+.bouton_infos {
+    height: 30px;
+    width: 120px;
+}
+
+
+/* flèche slider */
+#trait-slider {
+    display: none;
+}
+
+/* Partie Services */
+
+#services {
+    height: 1100px;
+}
+
+.titre_services {
+    width: 100%;
+    margin: 0;
+}
+
+.ordi {
+    height: 250px;
+    left: 3%;
+}
+
+.liste_services ul,
+.logo_services {
+    left: -380px;
+    top: 200px;
+}
+
+
+
+.liste_services p {
+    width: 250px;
+}
+
+
+
+.logo_services .fas.fa-circle {
+    bottom: 80px;
+}
+
+/* Partie Projets */
+
+.titre_projets {
+    width: 100%;
+    margin: 0;
+}
+
+#boutons_projets {
+    position: relative;
+    right: 15px;
+
+}
+
+/* Partie Contact */
+
+
+.formulaire {
+    position: static;
+    margin: 10%;
+
+}

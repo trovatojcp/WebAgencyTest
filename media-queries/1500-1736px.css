@@ -1,0 +1,62 @@
+/* Pour ceux qui ont une résolution entre 1500px et 1736px */
+/* Partie Accueil */
+
+
+.circle-left {
+    bottom: 35px;
+    height: 50px;
+    width: 25px;
+    /* 2*height */
+    border-bottom-right-radius: 90px;
+    /* 4*height */
+    border-top-right-radius: 90px;
+    /* 4*height */
+}
+
+.circle-right {
+    bottom: 35px;
+    height: 50px;
+    width: 25px;
+    /* 2*height */
+    border-bottom-left-radius: 90px;
+    /* 4*height */
+    border-top-left-radius: 90px;
+    /* 4*height */
+}
+
+.fas.fa-chevron-right {
+    padding-left: 10px;
+}
+
+
+.texte_accueil {
+    position: absolute;
+    padding-left: 8%;
+    top: 50%;
+}
+
+
+/* Partie Services */
+
+.ordi {
+    height: 350px;
+    margin-right: 25%;
+}
+
+
+
+.liste_services p {
+    width: 500px;
+
+}
+
+/* Partie Projet */
+
+.pictures {
+    max-width: 70%;
+    position: relative;
+    left: 16%;
+}
+
+
+/* Partie Contact */
